@@ -6,6 +6,7 @@
     --bg-cl-tow: #282d3c;
     --cl-one: #fff8dc;
     --cl-tow: #a58250;
+    --tx-shadow:
 }
 
 * {
@@ -79,15 +80,20 @@ input {
     border: none;
     outline: none;
     background: none;
-    margin-right: 50px;
+    margin-right: 30px;
     cursor: pointer;
     transition: 0.3s;
+}
+
+input::placeholder {
+    color: var(--cl-one);
+    font-weight: 400;
 }
 
 .search {
     width: 250px;
     height: 30px;
-    padding: 10px;
+    padding: 20px;
     color: var(--cl-one);
     font-size: 18px;
 }
@@ -101,14 +107,11 @@ input {
 }
 
 .search-bar .icon {
-    position: absolute;
-    width: 20px;
-    right: 10px;
+    position: relative;
+    width: 17px;
+    right: 70px;
     cursor: pointer;
-    margin-right: 6px;
-    transform: scale(1);
     transition: 0.3s;
-
 }
 
 .icon:hover {
