@@ -67,13 +67,21 @@ span {
     color: var(--cl-tow)
 }
 
-input {
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: 0;
-    margin-right: 10px;
+}
+
+input {
     border: none;
     outline: none;
     background: none;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .search {
@@ -82,7 +90,6 @@ input {
     padding: 10px;
     color: var(--cl-one);
     font-size: 18px;
-    transition: 0.3s;
 }
 
 .search:focus {
@@ -91,4 +98,19 @@ input {
     color: var(--cl-tow);
     box-shadow: 0 3px 5px black;
     border-radius: 20px;
+}
+
+.search-bar .icon {
+    position: absolute;
+    width: 20px;
+    right: 10px;
+    cursor: pointer;
+    margin-right: 6px;
+    transform: scale(1);
+    transition: 0.3s;
+
+}
+
+.icon:hover {
+    transform: scale(1.2);
 }
