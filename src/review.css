@@ -46,9 +46,9 @@ body {
     position: relative;
     font-weight: 500;
     font-size: 24px;
-    cursor: pointer;
     left: 30px;
     transition: 0.3s ease-out;
+    cursor: pointer;
 }
 
 .navbar-items .item:hover {
@@ -89,5 +89,6 @@ input {
     width: 320px;
     height: 40px;
     color: var(--cl-tow);
-    box-shadow: 0 5px 10px black;
+    box-shadow: 0 3px 5px black;
+    border-radius: 20px;
 }
