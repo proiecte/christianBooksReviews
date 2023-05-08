@@ -56,6 +56,10 @@ body {
     color: var(--cl-tow);
 }
 
+a{text-decoration:none;
+color: var(--cl-one);
+}
+
 img {
     position: relative;
     width: 100px;
