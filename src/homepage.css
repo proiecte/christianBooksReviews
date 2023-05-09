@@ -130,6 +130,7 @@ h2 {
     top: -3rem;
     left: 5rem;
     font-size: 3rem;
+    font-weight: 400;
     color: var(--cl-one);
     letter-spacing: 5px;
 }
@@ -139,7 +140,8 @@ h2 {
     top: .5rem;
     left: 5rem;
     font-size: 5rem;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
     color: var(--cl-tow);
 }
 
