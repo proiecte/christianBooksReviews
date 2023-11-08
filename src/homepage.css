@@ -3,9 +3,9 @@
 :root {
     --bg-body: #363945;
     --bg-cl-one: #5f656b;
-    --bg-cl-tow: #282d3c;
+    --bg-cl-two: #282d3c;
     --cl-one: #fff8dc;
-    --cl-tow: #a58250;
+    --cl-two: #a58250;
     --tx-shadow:
 }
 
@@ -25,7 +25,7 @@ body {
 .container {
     display: flex;
     position: absolute;
-    background: var(--bg-cl-tow);
+    background: var(--bg-cl-two);
     width: 100%;
     min-height: 6rem;
     left: 0;
@@ -53,11 +53,12 @@ body {
 }
 
 .navbar-items .item:hover {
-    color: var(--cl-tow);
+    color: var(--cl-two);
 }
 
-a{text-decoration:none;
-color: var(--cl-one);
+a {
+    text-decoration: none;
+    color: var(--cl-one);
 }
 
 img {
