@@ -20,9 +20,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
-.container {
+.container-fluid {
     display: flex;
     position: absolute;
     background: var(--bg-cl-two);
@@ -70,7 +71,7 @@ img {
 span {
     font-family: "Satisfy", cursive;
     font-size: 40px;
-    color: var(--cl-tow)
+    color: var(--cl-two)
 }
 
 .search-bar {
@@ -106,7 +107,7 @@ input::placeholder {
 .search:focus {
     width: 320px;
     height: 40px;
-    color: var(--cl-tow);
+    color: var(--cl-two);
     box-shadow: 0 3px 5px black;
     border-radius: 20px;
 }
