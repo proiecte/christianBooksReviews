@@ -3,9 +3,9 @@
 :root {
     --bg-body: #363945;
     --bg-cl-one: #5f656b;
-    --bg-cl-tow: #282d3c;
+    --bg-cl-two: #282d3c;
     --cl-one: #fff8dc;
-    --cl-tow: #a58250;
+    --cl-two: #a58250;
     --tx-shadow:
 }
 
@@ -20,12 +20,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
-.container {
+.container-fluid {
     display: flex;
     position: absolute;
-    background: var(--bg-cl-tow);
+    background: var(--bg-cl-two);
     width: 100%;
     min-height: 6rem;
     left: 0;
@@ -53,11 +54,12 @@ body {
 }
 
 .navbar-items .item:hover {
-    color: var(--cl-tow);
+    color: var(--cl-two);
 }
 
-a{text-decoration:none;
-color: var(--cl-one);
+a {
+    text-decoration: none;
+    color: var(--cl-one);
 }
 
 img {
@@ -69,7 +71,7 @@ img {
 span {
     font-family: "Satisfy", cursive;
     font-size: 40px;
-    color: var(--cl-tow)
+    color: var(--cl-two)
 }
 
 .search-bar {
@@ -105,7 +107,7 @@ input::placeholder {
 .search:focus {
     width: 320px;
     height: 40px;
-    color: var(--cl-tow);
+    color: var(--cl-two);
     box-shadow: 0 3px 5px black;
     border-radius: 20px;
 }
